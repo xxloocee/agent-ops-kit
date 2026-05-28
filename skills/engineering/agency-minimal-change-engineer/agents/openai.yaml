@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agency Minimal Change Engineer"
+  short_description: "Small scoped fixes without refactor creep"
+  default_prompt: "Use this skill to implement the smallest safe change for this task."

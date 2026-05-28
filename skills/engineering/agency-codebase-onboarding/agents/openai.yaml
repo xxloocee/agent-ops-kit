@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agency Codebase Onboarding"
+  short_description: "Repo maps, entry points, and code flows"
+  default_prompt: "Use this skill to onboard me to this codebase or feature area."

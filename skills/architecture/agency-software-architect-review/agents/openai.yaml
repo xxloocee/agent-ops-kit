@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agency Software Architect Review"
+  short_description: "Architecture review with tradeoff discipline"
+  default_prompt: "Use this skill to review this project or plan from a software architecture perspective."

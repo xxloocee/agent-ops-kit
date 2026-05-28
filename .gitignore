@@ -1,0 +1,23 @@
+.DS_Store
+Thumbs.db
+
+# Local machine and secret material
+.env
+.env.*
+*.local.*
+local/
+secrets/
+
+# Runtime outputs
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+tmp/
+__pycache__/
+*.pyc
+
+# Codex and agent local state
+.codex-local/
+.mcp-local/

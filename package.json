@@ -1,0 +1,10 @@
+{
+  "name": "agent-ops-kit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Personal capability registry for skills, plugins, MCP, workflows, and agent collaboration.",
+  "scripts": {
+    "validate": "node scripts/validate-registry.js",
+    "discover:local": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/discover-local-capabilities.ps1"
+  }
+}

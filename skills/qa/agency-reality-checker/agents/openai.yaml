@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agency Reality Checker"
+  short_description: "Evidence-first QA readiness checks"
+  default_prompt: "Use this skill to verify whether this implementation is actually ready."

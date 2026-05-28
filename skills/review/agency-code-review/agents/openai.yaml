@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agency Code Review"
+  short_description: "PR review for bugs, security, and tests"
+  default_prompt: "Use this skill to review this diff or code change."
