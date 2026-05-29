@@ -161,6 +161,23 @@
       "notes": "Imported from local agent skills. Review network and platform access before using in restricted environments."
     },
     {
+      "id": "skill.decision-grill",
+      "type": "skill",
+      "name": "Decision Grill",
+      "path": "skills/planning/decision-grill/SKILL.md",
+      "status": "stable",
+      "tags": ["skill", "planning", "decision"],
+      "description": "Bounded plan and design stress-testing skill that asks only high-value questions, gives recommended answers, and stops once the next step is clear.",
+      "source": "local:user-authored",
+      "entrypoint": "SKILL.md",
+      "dependencies": [],
+      "inputs": ["plan", "design", "architecture direction", "implementation approach"],
+      "outputs": ["focused question", "recommended answer", "decision summary", "smallest next step"],
+      "secrets": [],
+      "last_verified": "2026-05-29",
+      "notes": "Inspired by grill-me, but rewritten with explicit scope control and stopping rules."
+    },
+    {
       "id": "skill.ui-ux-pro-max",
       "type": "skill",
       "name": "UI UX Pro Max",

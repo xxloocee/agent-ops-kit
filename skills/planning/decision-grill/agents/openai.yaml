@@ -1,0 +1,4 @@
+interface:
+  display_name: "Decision Grill"
+  short_description: "Stress-test plans with bounded questions."
+  default_prompt: "Use $decision-grill to stress-test this plan and converge on the smallest safe next step."
