@@ -143,7 +143,7 @@ Discovered from `C:\Users\xxloo\.codex\config.toml`. Only command shape was
 recorded; environment values are intentionally ignored.
 
 - [ ] `node_repl`: command points to Codex bundled `node_repl.exe`
-- [ ] `codegraph`: command `codegraph`, args `serve --mcp`
+- [x] `codegraph`: command `codegraph`, args `serve --mcp`
 
 ## Suggested Batches
 

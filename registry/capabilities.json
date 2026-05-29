@@ -204,6 +204,32 @@
       }
     },
     {
+      "id": "mcp.codegraph",
+      "type": "mcp",
+      "name": "CodeGraph",
+      "path": "mcp/servers/codegraph.md",
+      "status": "stable",
+      "import_strategy": "index-only",
+      "tags": ["mcp", "code", "graph", "code-intelligence", "local-tooling"],
+      "description": "External MCP server and CLI that provides semantic code intelligence from a local repository index.",
+      "source": "https://github.com/colbymchenry/codegraph",
+      "entrypoint": "codegraph serve --mcp",
+      "dependencies": ["codegraph CLI"],
+      "inputs": ["repository source code", "symbol query", "architecture or flow question"],
+      "outputs": ["symbol context", "call graph", "impact analysis", "file structure", "task context"],
+      "secrets": [],
+      "last_verified": "2026-05-29",
+      "notes": "Index-only external MCP tool. Local CLI version observed: 0.9.6. Project indexes should remain local .codegraph/ runtime data.",
+      "upstream": {
+        "repo": "colbymchenry/codegraph",
+        "url": "https://github.com/colbymchenry/codegraph",
+        "path": ".",
+        "commit": "f58de8a391259214729b1e8de3524e9589c5e056",
+        "last_checked": "2026-05-29",
+        "notes": "Tracked as an external MCP solution, not vendored into this repository."
+      }
+    },
+    {
       "id": "prompt.codex-ling-local-dev",
       "type": "prompt",
       "name": "Codex Ling Local Dev Persona",
