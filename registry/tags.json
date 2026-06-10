@@ -4,8 +4,10 @@
     "architecture",
     "automation",
     "browser",
+    "cli",
     "code-review",
     "coding",
+    "cross-session",
     "decision",
     "design",
     "docs",
@@ -14,12 +16,17 @@
     "plugin",
     "planning",
     "prompt",
+    "orchestration",
+    "proxy",
     "qa",
     "research",
+    "runtime",
+    "rust",
     "ship",
     "skill",
     "solution",
     "sdd",
+    "token",
     "workflow"
   ]
 }

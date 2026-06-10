@@ -221,6 +221,58 @@
       }
     },
     {
+      "id": "workflow.catpaw",
+      "type": "workflow",
+      "name": "CatPaw",
+      "path": "workflows/external-solutions/catpaw.md",
+      "status": "candidate",
+      "import_strategy": "index-only",
+      "tags": ["workflow", "solution", "runtime", "cross-session", "orchestration", "planning", "review", "qa"],
+      "description": "External AI workflow runtime for routing project work across sessions, maintaining durable artifact boards, applying provider gates, and closing work with verification evidence.",
+      "source": "https://github.com/shiqkuangsan/catpaw",
+      "entrypoint": "external repository",
+      "dependencies": ["Node.js for source checkout build and verification scripts"],
+      "inputs": ["project task", "repository", "workflow state", "artifact board"],
+      "outputs": ["workflow routing", "project artifacts", "provider gate guidance", "verification or closeout evidence"],
+      "secrets": [],
+      "last_verified": "2026-06-10",
+      "notes": "Index-only. Track CatPaw as a cross-session workflow runtime rather than splitting it into local skills or vendoring its runtime package.",
+      "upstream": {
+        "repo": "shiqkuangsan/catpaw",
+        "url": "https://github.com/shiqkuangsan/catpaw",
+        "path": ".",
+        "commit": "a96f188c585db7e5ce69fa97a2abc79e9b985df8",
+        "last_checked": "2026-06-10",
+        "notes": "Tracked as an external workflow runtime. Use upstream install and runtime manifest semantics for actual CatPaw deployment."
+      }
+    },
+    {
+      "id": "plugin.rtk",
+      "type": "plugin",
+      "name": "RTK",
+      "path": "plugins/external-tools/rtk.md",
+      "status": "candidate",
+      "import_strategy": "index-only",
+      "tags": ["plugin", "cli", "token", "proxy", "coding", "automation", "rust"],
+      "description": "External Rust CLI proxy and agent integration tool that filters verbose development command output before it reaches LLM context.",
+      "source": "https://github.com/rtk-ai/rtk",
+      "entrypoint": "external repository",
+      "dependencies": ["Rust/Cargo or prebuilt RTK binary", "agent hook or plugin support for auto-rewrite when available"],
+      "inputs": ["shell command", "development tool output", "agent integration mode"],
+      "outputs": ["compressed command output", "token savings analytics", "rewrite or initialization guidance"],
+      "secrets": [],
+      "last_verified": "2026-06-10",
+      "notes": "Index-only. Track RTK as an external CLI/proxy integration tool; do not vendor binaries, hooks, or installer scripts.",
+      "upstream": {
+        "repo": "rtk-ai/rtk",
+        "url": "https://github.com/rtk-ai/rtk",
+        "path": ".",
+        "commit": "6785a6c7695d7273e722214a295249a84819b6f0",
+        "last_checked": "2026-06-10",
+        "notes": "Checked develop branch. The repository also has a master branch; README installation commands may reference master for install scripts."
+      }
+    },
+    {
       "id": "mcp.codegraph",
       "type": "mcp",
       "name": "CodeGraph",
