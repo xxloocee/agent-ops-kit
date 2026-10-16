@@ -4,6 +4,10 @@ Generated from local Codex, agent, plugin, and MCP locations on 2026-05-28.
 This file is a decision list. It does not mean the capabilities have been
 imported into this repository.
 
+On 2026-10-16, `astra-sol-dev` and `tag-release` were imported from local Codex
+skills at the user's request. Their skill bodies are preserved unchanged under
+`skills/engineering/`, with metadata in `registry/capabilities.json`.
+
 ## Import Recommendation
 
 Start with one small batch. My recommended first batch is:
@@ -32,6 +36,7 @@ thin notes, or only registry pointers.
 - [x] `agency-minimal-change-engineer`
 - [x] `agency-reality-checker`
 - [x] `agency-software-architect-review`
+- [x] `astra-sol-dev`
 - [ ] `autoplan`
 - [ ] `benchmark`
 - [ ] `benchmark-models`
@@ -90,6 +95,7 @@ thin notes, or only registry pointers.
 - [ ] `skillify`
 - [ ] `spec`
 - [ ] `sync-gbrain`
+- [x] `tag-release`
 - [ ] `unfreeze`
 
 ## Agent Skills
