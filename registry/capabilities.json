@@ -213,6 +213,24 @@
       "notes": "Imported unchanged from the locally installed Codex skill. Requires the named models; simple tasks do not automatically activate collaboration. Import verification does not include executing the workflow."
     },
     {
+      "id": "skill.dev-review-collab",
+      "type": "skill",
+      "name": "Dev Review Collab",
+      "path": "skills/engineering/dev-review-collab/SKILL.md",
+      "status": "stable",
+      "import_strategy": "imported",
+      "tags": ["skill", "coding", "orchestration", "architecture", "review"],
+      "description": "Development and independent review collaboration using the current session model, parallel implementation for independent tasks, evidence-based findings, and minimal necessary safeguards.",
+      "source": "local:codex-skills/dev-review-collab",
+      "entrypoint": "SKILL.md",
+      "dependencies": ["subagent tools for collaboration"],
+      "inputs": ["complex development or review task", "repository", "project rules"],
+      "outputs": ["implementation plan", "code changes when requested", "independent review findings"],
+      "secrets": [],
+      "last_verified": "2026-10-31",
+      "notes": "Imported unchanged from the locally installed Codex skill. Subagents inherit the current session model by default; independent tasks may be implemented in parallel. Simple tasks stay with the current agent. Import verification does not include executing the workflow."
+    },
+    {
       "id": "skill.tag-release",
       "type": "skill",
       "name": "Tag Release",

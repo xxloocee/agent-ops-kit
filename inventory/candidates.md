@@ -8,6 +8,12 @@ On 2026-10-16, `astra-sol-dev` and `tag-release` were imported from local Codex
 skills at the user's request. Their skill bodies are preserved unchanged under
 `skills/engineering/`, with metadata in `registry/capabilities.json`.
 
+On 2026-10-31, `dev-review-collab` was imported unchanged from local Codex
+skills under `skills/engineering/`, with metadata in
+`registry/capabilities.json`. It uses the current session model by default
+and supports parallel implementation of independent tasks and independent
+review. The existing `astra-sol-dev` skill remains available separately.
+
 ## Import Recommendation
 
 Start with one small batch. My recommended first batch is:
@@ -52,6 +58,7 @@ thin notes, or only registry pointers.
 - [ ] `design-review`
 - [ ] `design-shotgun`
 - [ ] `design-taste-frontend`
+- [x] `dev-review-collab`
 - [ ] `devex-review`
 - [ ] `document-generate`
 - [ ] `document-release`
