@@ -144,6 +144,24 @@
       "notes": "Imported from local Codex skills. No upstream repository has been recorded yet."
     },
     {
+      "id": "skill.anthropic-animation",
+      "type": "skill",
+      "name": "Anthropic Animation",
+      "path": "skills/design/anthropic-animation/SKILL.md",
+      "status": "stable",
+      "import_strategy": "imported",
+      "tags": ["skill", "design"],
+      "description": "Create editable HTML animations with Anthropic-inspired warm paper textures, editorial typography, restrained motion, and independently designed storyboards for promotional, educational, and product explainers.",
+      "source": "local:codex-skills/anthropic-animation",
+      "entrypoint": "SKILL.md",
+      "dependencies": ["web browser for HTML animation playback"],
+      "inputs": ["animation brief", "audience and communication goals", "source materials", "visual and delivery constraints"],
+      "outputs": ["editable HTML animation", "entry file", "duration and audio notes"],
+      "secrets": [],
+      "last_verified": "2026-11-10",
+      "notes": "Imported unchanged from the locally installed Codex skill. Delivers editable HTML first; MP4 export requires a subsequent explicit request. No upstream repository is recorded. Import verification does not include generating or playing an animation."
+    },
+    {
       "id": "skill.agent-reach",
       "type": "skill",
       "name": "Agent Reach",

@@ -14,6 +14,11 @@ skills under `skills/engineering/`, with metadata in
 and supports parallel implementation of independent tasks and independent
 review. The existing `astra-sol-dev` skill remains available separately.
 
+On 2026-11-10, `anthropic-animation` was imported unchanged from local Codex
+skills under `skills/design/`, with metadata in `registry/capabilities.json`.
+It creates editable HTML animations with an Anthropic-inspired visual style;
+MP4 export requires a subsequent explicit request.
+
 ## Import Recommendation
 
 Start with one small batch. My recommended first batch is:
@@ -42,6 +47,7 @@ thin notes, or only registry pointers.
 - [x] `agency-minimal-change-engineer`
 - [x] `agency-reality-checker`
 - [x] `agency-software-architect-review`
+- [x] `anthropic-animation`
 - [x] `astra-sol-dev`
 - [ ] `autoplan`
 - [ ] `benchmark`
