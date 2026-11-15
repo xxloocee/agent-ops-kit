@@ -17,6 +17,11 @@ The repository follows a lightweight registry-first architecture:
 Do not commit secrets, real tokens, or machine-specific private config.
 Use `*.example.*` files for configuration examples.
 
+## Personal Instructions
+
+- [GPT 6.1 Sol concise global instructions](prompts/codex/gpt-6.1-sol/README.md):
+  current Codex global defaults, kept as a short personal preference baseline.
+
 ## Content Policy
 
 Store concrete content when the capability is small, text-centered, and strongly

@@ -389,6 +389,24 @@
       "notes": "Contains an @RTK.md project-rule reference that is intentionally kept as a local project include."
     },
     {
+      "id": "prompt.codex-gpt-6.1-sol-global-instructions",
+      "type": "prompt",
+      "name": "Codex GPT 6.1 Sol Concise Global Instructions",
+      "path": "prompts/codex/gpt-6.1-sol/AGENTS.md",
+      "status": "stable",
+      "import_strategy": "imported",
+      "tags": ["prompt", "codex", "local-dev", "chinese"],
+      "description": "Concise personal instructions for GPT 6.1 Sol, preserving the current Codex global defaults for communication, scope, collaboration, verification, and authorization.",
+      "source": "local:codex/AGENTS.md",
+      "entrypoint": "AGENTS.md",
+      "dependencies": ["rg", "skill.dev-review-collab", "CatPaw runtime policy when the project contains .catpaw/"],
+      "inputs": ["user task", "project rules"],
+      "outputs": ["personalized agent behavior", "concise communication", "minimal sufficient changes"],
+      "secrets": [],
+      "last_verified": "2026-11-15",
+      "notes": "Imported unchanged from the current Codex global AGENTS.md. Intended for manual use with gpt-6.1-sol; does not change local configuration or automatically switch instructions by model. See the adjacent README.md for usage and dependencies."
+    },
+    {
       "id": "workflow.openspec",
       "type": "workflow",
       "name": "OpenSpec",
